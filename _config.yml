@@ -1,0 +1,6 @@
+theme: minima
+title: Regulome Summit
+description: Hosted by Talus Bio
+header_pages:
+  - schedule.md
+  - speakers.md
