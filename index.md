@@ -3,6 +3,13 @@ layout: home
 title: Regulome Summit
 ---
 
+<div class="hero">
+  <h1>Regulome Summit 2025</h1>
+  <p>Monday, September 15 · University of Washington, Seattle</p>
+  <a class="btn" href="schedule.html">View schedule</a>
+</div>
+
+
 # Regulome Summit 2025
 
 **Monday, September 15 · University of Washington, Seattle**
