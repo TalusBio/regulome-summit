@@ -11,7 +11,6 @@ title: Schedule
 |------:|---------------------------------------|--------------------------------------|
 | 8:00 AM | Registration                          | Check in, badges, coffee              |
 | 9:00 AM | Welcome, plenary                      | Opening remarks                       |
-| 10:00 AM | Keynote                              | Speaker TBD                           |
 | 11:00 AM | Northwest Sarcoma Foundation         | Patient and clinical perspectives     |
 | 12:00 PM | Lunch                                |                                        |
 | 1:00 PM  | Session 1, Epigenetics               | Talks and Q&A                         |
