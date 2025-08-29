@@ -5,14 +5,20 @@ title: Speakers
 
 # Speakers
 
-**Dr. Alex Federation**  
+**Alex Federation, PhD**  
 CEO/founder, Talus Bio
 
-**TBD**
-TBD, TBD
+**Lindsay K Pino, PhD**
+CTO/founder, Talus Bio
 
-**TBD**
-TBD, TBD
+**William E Fondrie, PhD**
+Head of Data Science and Engineering, Talus Bio
 
-**TBD**
-TBD, TBD
+**Gaelle Mercenne, PhD**
+Head of Biology, Talus Bio
+
+**Stephanie K. Schaub, MD**
+Physician, Fred Hutch
+Assistant Professor, Division of Radiation Oncology, University of Washington School of Medicine
+
+**... and more to be announced!**
