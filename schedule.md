@@ -11,9 +11,10 @@ title: Schedule
 |------:|---------------------------------------|--------------------------------------|
 | 8:00 AM | Registration                          | Check in, badges, coffee              |
 | 9:00 AM | Welcome, plenary                      | Opening remarks                       |
-| 11:00 AM | Northwest Sarcoma Foundation         | Patient and clinical perspectives     |
+| 10:00 AM | Northwest Sarcoma Foundation         | Patient and clinical perspectives     |
+| 11:00 AM | Session 1, AI and ML         | Panel discussion     |
 | 12:00 PM | Lunch                                |                                        |
-| 1:00 PM  | Session 1, Epigenetics               | Panel discussion                         |
-| 2:00 PM  | Session 2, Drugging the Undruggable  | Panel discussion                  |
-| 3:00 PM  | Session 3, AI and ML                 | Panel discussion                          |
+| 1:00 PM  | Keynote               | Keynote                         |
+| 2:00 PM  | Session 2, Epigenetics               | Panel discussion                         |
+| 3:00 PM  | Session 3, Drugging the Undruggable  | Panel discussion                  |
 | 4:00 PM  | Posters and happy hour               | Reception                             |
