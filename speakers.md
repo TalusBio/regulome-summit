@@ -10,7 +10,7 @@ title: Speakers
 
 <details class="speaker">
   <summary style="display:flex;align-items:center;gap:12px;cursor:pointer;">
-    <img src="{{ '/assets/images/speakers/federation.jpg' | relative_url }}" alt="Alex Federation headshot" width="64" height="64" style="border-radius:50%;object-fit:cover;">
+    <img src="{{ '/assets/images/speakers/federation.jpeg' | relative_url }}" alt="Alex Federation headshot" width="64" height="64" style="border-radius:50%;object-fit:cover;">
     <div>
       <strong>Alex Federation, PhD</strong><br>
       CEO, founder, Talus Bio
@@ -36,7 +36,7 @@ title: Speakers
 
 <details class="speaker">
   <summary style="display:flex;align-items:center;gap:12px;cursor:pointer;">
-    <img src="{{ '/assets/images/speakers/fondrie.jpg' | relative_url }}" alt="William E Fondrie headshot" width="64" height="64" style="border-radius:50%;object-fit:cover;">
+    <img src="{{ '/assets/images/speakers/fondrie.jpeg' | relative_url }}" alt="William E Fondrie headshot" width="64" height="64" style="border-radius:50%;object-fit:cover;">
     <div>
       <strong>William E Fondrie, PhD</strong><br>
       Head of Data Science and Engineering, Talus Bio
@@ -62,7 +62,7 @@ title: Speakers
 
 <details class="speaker">
   <summary style="display:flex;align-items:center;gap:12px;cursor:pointer;">
-    <img src="{{ '/assets/images/speakers/hirst.jpg' | relative_url }}" alt="Gavin Hirst headshot" width="64" height="64" style="border-radius:50%;object-fit:cover;">
+    <img src="{{ '/assets/images/speakers/hirst.jpeg' | relative_url }}" alt="Gavin Hirst headshot" width="64" height="64" style="border-radius:50%;object-fit:cover;">
     <div>
       <strong>Gavin Hirst, PhD</strong><br>
       President, Gavin Hirst Enterprises LLC
