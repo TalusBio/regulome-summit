@@ -1,0 +1,53 @@
+- id: alex-federation
+  name: "Alex Federation, PhD"
+  role: "CEO, founder"
+  org: "Talus Bio"
+  img: "federation.jpeg"
+  bio: "Bio coming soon."
+  order: 1
+
+- id: lindsay-k-pino
+  name: "Lindsay K Pino, PhD"
+  role: "CTO, founder"
+  org: "Talus Bio"
+  img: "pino.jpg"
+  bio: "Bio coming soon."
+  order: 2
+
+- id: william-e-fondrie
+  name: "William E Fondrie, PhD"
+  role: "Head of Data Science and Engineering"
+  org: "Talus Bio"
+  img: "fondrie.jpeg"
+  bio: "Bio coming soon."
+  order: 3
+
+- id: gaelle-mercenne
+  name: "Gaelle Mercenne, PhD"
+  role: "Head of Biology"
+  org: "Talus Bio"
+  img: "mercenne.jpg"
+  bio: "Bio coming soon."
+  order: 4
+
+- id: gavin-hirst
+  name: "Gavin Hirst, PhD"
+  role: "President"
+  org: "Gavin Hirst Enterprises LLC"
+  img: "hirst.jpeg"
+  bio: "Gavin is a seasoned biopharmaceutical executive and medicinal chemist, with over 30 years of experience in drug discovery across a range of therapeutic areas, including oncology, immunology, metabolic diseases, and anti-infectives. Gavin and his teams have successfully delivered multiple high-quality clinical candidates while leveraging his expertise in structure-based and fragment-based drug design to address complex drug discovery challenges. Gavin is the co-inventor of vaborbactam, an FDA-approved β-lactamase inhibitor used in combination with meropenem for the treatment of complicated urinary tract infections (cUTIs).
+Most recently, Gavin served as the Chief Scientific Officer at Atomwise, a pioneer in AI-based small-molecule drug discovery, where he oversaw the company's drug discovery portfolio of AI-driven oncology and immunology programs.
+Previously, as Interim Chief Scientific Officer and Senior Vice President of Chemistry at Turning Point Therapeutics, he advanced precision oncology programs, including, amongst others, KRAS (G12D/G12V) and p21-activated kinase (PAK) that culminated in  Bristol Myers Squibb $4.1 billion acquisition of Turning Point in 2022.
+Earlier at J & J, Gavin led global small-molecule teams in autoimmune disease, progressing multiple clinical assets, including lorpucitinib (a GI-restricted pan-JAK inhibitor), into Phase II for familial adenomatous polyposis, a form of colorectal cancer.
+Additional career stops include Vice President of Discovery Research at Takeda, Global Head of Integrated Drug Discovery at Eurofins, Vice President of Medicinal Chemistry at Mpex, Senior Director of Medicinal Chemistry at SGX Pharmaceuticals, in addition to Medicinal Chemistry roles at GSK and AbbVie.   
+Gavin currently serves as a board advisor to Intelligent Ventures, an emerging venture capital firm that invests in US-based seed-stage companies, operating within the intersection of AI and healthcare, Zafrens, a company leveraging high-throughput cellular profiling at single-cell resolution, and Promakhos, a company working on restoring immune system function.
+Gavin has authored more than 100 scientific publications, presentations, book chapters, patents, and patent applications, reflecting his deep commitment to advancing drug discovery and development."
+  order: 5
+
+- id: jerry-shipps
+  name: "Jerry Shipps, PhD"
+  role: "External Science Lead Small Molecules, Discovery Network"
+  org: "Pfizer"
+  img: "shipps.jpg"
+  bio: "Jerry is an Executive Director in the Discovery Network group at Pfizer, focusing on the search & assessment of emerging drug discovery technologies and other promising external opportunities.  Prior to Pfizer he directed academic and biotech collaborations at Shire and evaluated external assets.  He also coordinated the global Tuberculosis Drug Accelerator initiative with the Bill & Melinda Gates Foundation, advancing compounds from 17 pharma & research institutions.  Earlier in his career Jerry directed medicinal chemistry and screening groups at Merck, Schering-Plough, and the biotech NeoGenesis.  He earned a Ph.D. in Organic Chemistry from M.I.T. in the laboratory of Prof. Julius Rebek."
+  order: 6
