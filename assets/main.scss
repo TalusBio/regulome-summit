@@ -33,3 +33,10 @@ details.speaker[open] .chev{transform:rotate(90deg)}
 details.speaker .meta strong{display:block}
 details.speaker .hint{font-size:.85rem;opacity:.7}
 
+/* Hide native markers everywhere */
+details.speaker summary::marker { content: ""; }
+details.speaker summary::-webkit-details-marker { display:none; }
+
+/* Force chevron size */
+svg.chev{width:14px;height:14px;flex:0 0 14px;display:inline-block}
+
