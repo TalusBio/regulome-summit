@@ -10,11 +10,10 @@ title: Speakers
 
 <details class="speaker">
   <summary>
-    <!-- chevron -->
-    <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 10l4 4 4-4" fill="currentColor"/></svg>
-    <!-- headshot -->
+    <svg class="chev" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+      <path d="M8 10l4 4 4-4" fill="currentColor"></path>
+    </svg>
     <img src="{{ '/assets/images/speakers/federation.jpeg' | relative_url }}" alt="Alex Federation headshot" width="64" height="64" style="border-radius:50%;object-fit:cover;">
-    <!-- text -->
     <div class="meta">
       <strong>Alex Federation, PhD</strong>
       CEO, founder, Talus Bio
