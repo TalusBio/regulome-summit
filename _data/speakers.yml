@@ -5,6 +5,10 @@
   img: "federation.jpeg"
   bio: "Bio coming soon."
   order: 1
+  role: keynote            # chair | speaker | panelist | keynote
+  sessions: keynote         # ai-ml | epigenetics | undruggable | keynote | nwsf
+  talk_title: 
+  abstract:
 
 - id: lindsay-k-pino
   name: "Lindsay K Pino, PhD"
@@ -13,6 +17,8 @@
   img: "pino.jpg"
   bio: "Bio coming soon."
   order: 2
+  role: chair            # chair | speaker | panelist | keynote
+  sessions: epigenetics         # ai-ml | epigenetics | undruggable | keynote | nwsf
 
 - id: william-e-fondrie
   name: "William E Fondrie, PhD"
@@ -21,6 +27,8 @@
   img: "fondrie.jpeg"
   bio: "Bio coming soon."
   order: 3
+  role: chair            # chair | speaker | panelist | keynote
+  sessions: ai-ml         # ai-ml | epigenetics | undruggable | keynote | nwsf
 
 - id: gaelle-mercenne
   name: "Gaelle Mercenne, PhD"
@@ -29,6 +37,8 @@
   img: "mercenne.jpg"
   bio: "Bio coming soon."
   order: 4
+  role: chair            # chair | speaker | panelist | keynote
+  sessions: [undruggable, nwsf]         # ai-ml | epigenetics | undruggable | keynote | nwsf
 
 - id: gavin-hirst
   name: "Gavin Hirst, PhD"
@@ -43,6 +53,8 @@ Additional career stops include Vice President of Discovery Research at Takeda, 
 Gavin currently serves as a board advisor to Intelligent Ventures, an emerging venture capital firm that invests in US-based seed-stage companies, operating within the intersection of AI and healthcare, Zafrens, a company leveraging high-throughput cellular profiling at single-cell resolution, and Promakhos, a company working on restoring immune system function.
 Gavin has authored more than 100 scientific publications, presentations, book chapters, patents, and patent applications, reflecting his deep commitment to advancing drug discovery and development."
   order: 5
+  role: speaker            # chair | speaker | panelist | keynote
+  sessions: undruggable         # ai-ml | epigenetics | undruggable | keynote | nwsf
 
 - id: jerry-shipps
   name: "Jerry Shipps, PhD"
@@ -51,3 +63,30 @@ Gavin has authored more than 100 scientific publications, presentations, book ch
   img: "shipps.jpg"
   bio: "Jerry is an Executive Director in the Discovery Network group at Pfizer, focusing on the search & assessment of emerging drug discovery technologies and other promising external opportunities.  Prior to Pfizer he directed academic and biotech collaborations at Shire and evaluated external assets.  He also coordinated the global Tuberculosis Drug Accelerator initiative with the Bill & Melinda Gates Foundation, advancing compounds from 17 pharma & research institutions.  Earlier in his career Jerry directed medicinal chemistry and screening groups at Merck, Schering-Plough, and the biotech NeoGenesis.  He earned a Ph.D. in Organic Chemistry from M.I.T. in the laboratory of Prof. Julius Rebek."
   order: 6
+  role: speaker            # chair | speaker | panelist | keynote
+  sessions: undruggable         # ai-ml | epigenetics | undruggable | keynote | nwsf
+
+- id: tara-arvedson
+  name: "Tara Arvedson, PhD"
+  role: "Chief Scientific Officer"
+  org: "Hexagon Bio"
+  img: "arvedson.jpg"
+  bio: "Tara Arvedson, Ph.D. is Chief Scientific Officer at Hexagon Bio, where she leads strategic direction and execution across the company’s drug discovery platform and therapeutic portfolio. She is an accomplished scientific leader with over two decades of experience in oncology, hematology, inflammation, and immunotherapy.
+
+Before joining Hexagon Bio, Tara held senior leadership roles at Amgen where she advanced bispecific T cell engager (BiTE®) therapies, chimeric antigen receptor (CAR) T-cell programs, and the KRAS G12C inhibitor Lumakras™, for which she earned the 2025 ACS Heroes of Chemistry Award.
+
+Tara earned her Ph.D. in Biochemistry from the California Institute of Technology and completed a Damon Runyon Cancer Research Fellowship at UC San Diego. She is an inventor on multiple patents, a widely published author, and a recognized thought leader in drug discovery and development.
+"
+  order: 7
+  role: speaker            # chair | speaker | panelist | keynote
+  sessions: undruggable         # ai-ml | epigenetics | undruggable | keynote | nwsf
+  
+- id: ken-horenstein
+  name: "Ken Horenstein"
+  role: "Founder and General Partner"
+  org: "Pack Ventures"
+  img: "horenstein.JPG"
+  bio: "Ken is the Founder and General Partner of Pack Ventures, a preferred venture partner of the University of Washington. At Pack, Ken and team have backed 10 platform focused life science companies (and counting), including multiple Institute for Protein Design spinouts at the preseed and seed level. Ken was previously a part of the M12 Team, Microsoft’s Venture Fund, and has been a VC for over a decade."
+  order: 8
+  role: speaker            # chair | speaker | panelist | keynote
+  sessions: ai-ml         # ai-ml | epigenetics | undruggable | keynote | nwsf
