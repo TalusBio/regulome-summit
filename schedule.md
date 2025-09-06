@@ -3,9 +3,7 @@ layout: page
 title: Schedule
 ---
 
-# Event Schedule
-
-## Monday, September 15 · University of Washington, Seattle
+# Regulome Summit: Schedule
 
 {% assign chair_ai_ml = nil %}
 {% assign chair_epi = nil %}
@@ -31,15 +29,23 @@ title: Schedule
 
 | Time    | Session                               | Details |
 |-------: |---------------------------------------|---------|
-| 8:00 AM | Registration                          | Check in, badges, coffee |
+| 8:00 AM | Registration                          | Check in, badges, coffee, buffet breakfast, veg, GF, DF options |
 | 9:00 AM | Welcome, plenary                      | Opening remarks |
 | 10:00 AM| Northwest Sarcoma Foundation          | Patient and clinical perspectives |
 | 11:00 AM| Session 1, AI and ML                  | {% if chair_ai_ml %}Session Chair: {{ chair_ai_ml.name }}{% if chair_ai_ml.degrees %}, {{ chair_ai_ml.degrees }}{% endif %}{% if chair_ai_ml.affiliation %} · {{ chair_ai_ml.affiliation }}{% endif %}{% else %}Session chair TBA{% endif %} |
-| 12:00 PM| Lunch                                 |  |
+| 12:00 PM| Lunch                                 | Hot buffet lunch, veg, GF, DF options |
 | 1:00 PM | Keynote                               | {% if keynote %}{{ keynote.name }}{% if keynote.degrees %}, {{ keynote.degrees }}{% endif %}{% if keynote.affiliation %} · {{ keynote.affiliation }}{% endif %}{% else %}Speaker TBA{% endif %} |
 | 2:00 PM | Session 2, Epigenetics                | {% if chair_epi %}Session Chair: {{ chair_epi.name }}{% if chair_epi.degrees %}, {{ chair_epi.degrees }}{% endif %}{% if chair_epi.affiliation %} · {{ chair_epi.affiliation }}{% endif %}{% else %}Session chair TBA{% endif %} |
 | 3:00 PM | Session 3, Drugging the Undruggable   | {% if chair_undr %}Session Chair: {{ chair_undr.name }}{% if chair_undr.degrees %}, {{ chair_undr.degrees }}{% endif %}{% if chair_undr.affiliation %} · {{ chair_undr.affiliation }}{% endif %}{% else %}Session chair TBA{% endif %} |
-| 4:00 PM | Posters and happy hour                | Reception |
+| 4:00 PM | Posters and happy hour                | Reception, appetizers, snacks, dessert, beer, wine, NA drinks |
+
+### Catering
+
+- Breakfast and lunch are buffet style, serve yourself.  
+- Vegetarian, gluten free, and dairy free options at both meals.  
+- Reception includes appetizers, snacks, and a dessert option.  
+- Drinks at reception, beer, wine, and non-alcoholic beverages, sodas and water with lemon.
+
 
 ---
 
@@ -170,6 +176,14 @@ Reception and networking.
 - Poster size and format
 - Presenter timing
 - Best poster note if applicable
+
+</details>
+
+<details markdown="1"><summary>Food and beverage at reception</summary>
+
+- Appetizers, snacks, dessert  
+- Beer, wine, sparkling, red and white  
+- Non-alcoholic options, sodas and water with lemon
 
 </details>
 
