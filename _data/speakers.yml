@@ -6,7 +6,7 @@
   bio: "Bio coming soon."
   order: 1
   role: keynote            # chair | speaker | panelist | keynote
-  session: keynote         # ai-ml | epigenetics | undruggable | keynote | nwsf
+  sessions: keynote         # ai-ml | epigenetics | undruggable | keynote | nwsf
   talk_title: 
   abstract:
 
@@ -18,7 +18,7 @@
   bio: "Bio coming soon."
   order: 2
   role: chair            # chair | speaker | panelist | keynote
-  session: epigenetics         # ai-ml | epigenetics | undruggable | keynote | nwsf
+  sessions: epigenetics         # ai-ml | epigenetics | undruggable | keynote | nwsf
 
 - id: william-e-fondrie
   name: "William E Fondrie, PhD"
@@ -28,7 +28,7 @@
   bio: "Bio coming soon."
   order: 3
   role: chair            # chair | speaker | panelist | keynote
-  session: ai-ml         # ai-ml | epigenetics | undruggable | keynote | nwsf
+  sessions: ai-ml         # ai-ml | epigenetics | undruggable | keynote | nwsf
 
 - id: gaelle-mercenne
   name: "Gaelle Mercenne, PhD"
@@ -38,7 +38,7 @@
   bio: "Bio coming soon."
   order: 4
   role: chair            # chair | speaker | panelist | keynote
-  session: [undruggable, nwsf]         # ai-ml | epigenetics | undruggable | keynote | nwsf
+  sessions: [undruggable, nwsf]         # ai-ml | epigenetics | undruggable | keynote | nwsf
 
 - id: gavin-hirst
   name: "Gavin Hirst, PhD"
@@ -54,7 +54,7 @@ Gavin currently serves as a board advisor to Intelligent Ventures, an emerging v
 Gavin has authored more than 100 scientific publications, presentations, book chapters, patents, and patent applications, reflecting his deep commitment to advancing drug discovery and development."
   order: 5
   role: speaker            # chair | speaker | panelist | keynote
-  session: undruggable         # ai-ml | epigenetics | undruggable | keynote | nwsf
+  sessions: undruggable         # ai-ml | epigenetics | undruggable | keynote | nwsf
 
 - id: jerry-shipps
   name: "Jerry Shipps, PhD"
@@ -64,7 +64,7 @@ Gavin has authored more than 100 scientific publications, presentations, book ch
   bio: "Jerry is an Executive Director in the Discovery Network group at Pfizer, focusing on the search & assessment of emerging drug discovery technologies and other promising external opportunities.  Prior to Pfizer he directed academic and biotech collaborations at Shire and evaluated external assets.  He also coordinated the global Tuberculosis Drug Accelerator initiative with the Bill & Melinda Gates Foundation, advancing compounds from 17 pharma & research institutions.  Earlier in his career Jerry directed medicinal chemistry and screening groups at Merck, Schering-Plough, and the biotech NeoGenesis.  He earned a Ph.D. in Organic Chemistry from M.I.T. in the laboratory of Prof. Julius Rebek."
   order: 6
   role: speaker            # chair | speaker | panelist | keynote
-  session: undruggable         # ai-ml | epigenetics | undruggable | keynote | nwsf
+  sessions: undruggable         # ai-ml | epigenetics | undruggable | keynote | nwsf
 
 - id: tara-arvedson
   name: "Tara Arvedson, PhD"
@@ -79,7 +79,7 @@ Tara earned her Ph.D. in Biochemistry from the California Institute of Technolog
 "
   order: 7
   role: speaker            # chair | speaker | panelist | keynote
-  session: undruggable         # ai-ml | epigenetics | undruggable | keynote | nwsf
+  sessions: undruggable         # ai-ml | epigenetics | undruggable | keynote | nwsf
   
 - id: ken-horenstein
   name: "Ken Horenstein"
@@ -89,4 +89,4 @@ Tara earned her Ph.D. in Biochemistry from the California Institute of Technolog
   bio: "Ken is the Founder and General Partner of Pack Ventures, a preferred venture partner of the University of Washington. At Pack, Ken and team have backed 10 platform focused life science companies (and counting), including multiple Institute for Protein Design spinouts at the preseed and seed level. Ken was previously a part of the M12 Team, Microsoft’s Venture Fund, and has been a VC for over a decade."
   order: 8
   role: speaker            # chair | speaker | panelist | keynote
-  session: ai-ml         # ai-ml | epigenetics | undruggable | keynote | nwsf
+  sessions: ai-ml         # ai-ml | epigenetics | undruggable | keynote | nwsf
