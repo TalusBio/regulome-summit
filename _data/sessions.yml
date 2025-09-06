@@ -1,0 +1,15 @@
+ai-ml:
+  blurb: Short talks on representation learning, model eval, and proteomics workflows.
+
+epigenetics:
+  blurb: Methods and findings across chromatin dynamics and regulome mapping.
+
+undruggable:
+  blurb: Modality mix for TFs and cofactors, screening tactics, and risk.
+
+keynote:
+  blurb: Frontier view on nuclear proteomics and translational impact.
+
+nwsf:
+  blurb: Patient impact, clinical needs, and why regulome biology matters in sarcoma.
+  link: https://www.nwsarcoma.org/
