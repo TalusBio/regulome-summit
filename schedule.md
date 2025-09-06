@@ -51,7 +51,8 @@ Short orientation. Context and logistics.
 ## Northwest Sarcoma Foundation
 {{ site.data.sessions.nwsf.blurb }}{% if site.data.sessions.nwsf.link %} ([learn more]({{ site.data.sessions.nwsf.link }})){% endif %}
 
-<details><summary>Speakers</summary>
+<details markdown="1"><summary>Speakers</summary>
+
 {% assign session_key = "nwsf" %}
 {% for sp in site.data.speakers %}
   {% assign in_session = false %}
@@ -63,6 +64,7 @@ Short orientation. Context and logistics.
   {% if sp.abstract %}{% if sp.abstract[session_key] %}<br>{{ sp.abstract[session_key] }}{% else %}<br>{{ sp.abstract }}{% endif %}{% endif %}
   {% endif %}
 {% endfor %}
+
 </details>
 
 ---
@@ -72,7 +74,8 @@ Short orientation. Context and logistics.
 
 **Session Chair:** {% if chair_ai_ml %}{{ chair_ai_ml.name }}{% if chair_ai_ml.degrees %}, {{ chair_ai_ml.degrees }}{% endif %}{% if chair_ai_ml.affiliation %} · {{ chair_ai_ml.affiliation }}{% endif %}{% else %}TBA{% endif %}
 
-<details><summary>Speakers and talks</summary>
+<details markdown="1"><summary>Speakers and talks</summary>
+
 {% assign session_key = "ai-ml" %}
 {% for sp in site.data.speakers %}
   {% if sp.role == "speaker" or sp.role == "panelist" %}
@@ -86,6 +89,7 @@ Short orientation. Context and logistics.
     {% endif %}
   {% endif %}
 {% endfor %}
+
 </details>
 
 ---
@@ -95,12 +99,14 @@ Short orientation. Context and logistics.
 
 **Speaker:** {% if keynote %}{{ keynote.name }}{% if keynote.degrees %}, {{ keynote.degrees }}{% endif %}{% if keynote.affiliation %} · {{ keynote.affiliation }}{% endif %}{% else %}TBA{% endif %}
 
-<details><summary>Abstract</summary>
+<details markdown="1"><summary>Abstract</summary>
+
 {% if keynote and keynote.abstract %}
   {% if keynote.abstract.keynote %}{{ keynote.abstract.keynote }}{% else %}{{ keynote.abstract }}{% endif %}
 {% else %}
   Abstract TBA
 {% endif %}
+
 </details>
 
 ---
@@ -110,7 +116,8 @@ Short orientation. Context and logistics.
 
 **Session Chair:** {% if chair_epi %}{{ chair_epi.name }}{% if chair_epi.degrees %}, {{ chair_epi.degrees }}{% endif %}{% if chair_epi.affiliation %} · {{ chair_epi.affiliation }}{% endif %}{% else %}TBA{% endif %}
 
-<details><summary>Speakers and talks</summary>
+<details markdown="1"><summary>Speakers and talks</summary>
+
 {% assign session_key = "epigenetics" %}
 {% for sp in site.data.speakers %}
   {% if sp.role == "speaker" or sp.role == "panelist" %}
@@ -124,6 +131,7 @@ Short orientation. Context and logistics.
     {% endif %}
   {% endif %}
 {% endfor %}
+
 </details>
 
 ---
@@ -133,7 +141,8 @@ Short orientation. Context and logistics.
 
 **Session Chair:** {% if chair_undr %}{{ chair_undr.name }}{% if chair_undr.degrees %}, {{ chair_undr.degrees }}{% endif %}{% if chair_undr.affiliation %} · {{ chair_undr.affiliation }}{% endif %}{% else %}TBA{% endif %}
 
-<details><summary>Speakers and talks</summary>
+<details markdown="1"><summary>Speakers and talks</summary>
+
 {% assign session_key = "undruggable" %}
 {% for sp in site.data.speakers %}
   {% if sp.role == "speaker" or sp.role == "panelist" %}
@@ -147,6 +156,7 @@ Short orientation. Context and logistics.
     {% endif %}
   {% endif %}
 {% endfor %}
+
 </details>
 
 ---
@@ -154,9 +164,12 @@ Short orientation. Context and logistics.
 ## Posters and happy hour
 Reception and networking.
 
-<details><summary>Poster details</summary>
+<details markdown="1"><summary>Poster details</summary>
+
 - Setup time and location
 - Poster size and format
 - Presenter timing
 - Best poster note if applicable
+
 </details>
+
