@@ -70,19 +70,18 @@ Short orientation. Context and logistics.
 
 <details><summary>Speakers</summary>
 {% assign nw_list = site.data.speakers
-   | where_exp: "s", "(s.sessions and s-sessions contains 'nwsf') or s.session == 'nwsf'" %}
-{% for sp in site.data.speakers %}
-  {% if (sp.sessions and sp.sessions contains "nwsf") or sp.session == "nwsf" %}
+  | where_exp: "s", "(s.sessions and s.sessions contains 'nwsf') or s.session == 'nwsf'" %}
+{% for sp in nw_list %}
 - **{{ sp.name }}**{% if sp.degrees %}, {{ sp.degrees }}{% endif %}{% if sp.affiliation %} — {{ sp.affiliation }}{% endif %}
   {% if sp.talk_title %}
-    {% if sp.talk_title.nwsf %}*{{ sp.talk_title.nwsf }}*{% elsif sp.talk_title %}*{{ sp.talk_title }}*{% endif %}
+    {% if sp.talk_title.nwsf %}*{{ sp.talk_title.nwsf }}*{% else %}*{{ sp.talk_title }}*{% endif %}
   {% endif %}
   {% if sp.abstract %}
     {% if sp.abstract.nwsf %}<br>{{ sp.abstract.nwsf }}{% else %}<br>{{ sp.abstract }}{% endif %}
   {% endif %}
-  {% endif %}
 {% endfor %}
 </details>
+
 
 ---
 
