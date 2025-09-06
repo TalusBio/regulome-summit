@@ -2,7 +2,7 @@
 layout: page
 title: Schedule
 nwsf_blurb: >
-  Brief remarks on patient impact and clinical needs in sarcoma. Why the regulome matters for rare cancers.
+  *Why the regulome matters for rare cancers.* Brief remarks on patient impact and clinical needs in sarcoma, from the physicians and patients themselves. 
 ---
 
 ## Monday, September 15 · University of Washington, Seattle
