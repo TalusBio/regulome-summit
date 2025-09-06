@@ -39,19 +39,20 @@ nwsf_blurb: >
 
 | Time | Session | Details |
 |----:|:--|:--|
+{% assign chairs = site.data.speakers | where: "role", "chair" %}
 {% for key in page.order %}
 {% assign slot = page.slots[key] %}
 {% if key == "ai-ml" or key == "epigenetics" or key == "undruggable" %}
-  {% assign chair = site.data.speakers
-     | where: "role", "chair"
-     | where_exp: "s", "(s.sessions and s.sessions contains key) or s.session == key"
-     | first %}
+  {% assign chair_single = chairs | where: "session", key | first %}
+  {% assign chair_multi  = chairs | where_exp: "p", "p.sessions and p.sessions contains key" | first %}
+  {% assign chair = chair_single %}
+  {% if chair == nil %}{% assign chair = chair_multi %}{% endif %}
   | {{ slot.time }} | {{ slot.label }} | {% if chair %}Session Chair: {{ chair.name }}{% if chair.degrees %}, {{ chair.degrees }}{% endif %}{% if chair.affiliation %} — {{ chair.affiliation }}{% endif %}{% else %}Session chair TBA{% endif %} |
 {% elsif key == "keynote" %}
-  {% assign keynote = site.data.speakers
-     | where: "role", "keynote"
-     | where_exp: "s", "(s.sessions and s.sessions contains key) or s.session == key"
-     | first %}
+  {% assign keynote_single = site.data.speakers | where: "role", "keynote" | where: "session", key | first %}
+  {% assign keynote_multi  = site.data.speakers | where: "role", "keynote" | where_exp: "p", "p.sessions and p.sessions contains key" | first %}
+  {% assign keynote = keynote_single %}
+  {% if keynote == nil %}{% assign keynote = keynote_multi %}{% endif %}
   | {{ slot.time }} | {{ slot.label }} | {% if keynote %}{{ keynote.name }}{% if keynote.degrees %}, {{ keynote.degrees }}{% endif %}{% if keynote.affiliation %} — {{ keynote.affiliation }}{% endif %}{% else %}Speaker TBA{% endif %} |
 {% else %}
   | {{ slot.time }} | {{ slot.label }} | {{ slot.note | default: "" }} |
@@ -69,103 +70,84 @@ Short orientation. Context and logistics.
 {{ page.nwsf_blurb }}
 
 <details><summary>Speakers</summary>
-{% assign nw_list = site.data.speakers
-  | where_exp: "s", "(s.sessions and s.sessions contains 'nwsf') or s.session == 'nwsf'" %}
+{% assign nwsf_single = site.data.speakers | where: "session", "nwsf" %}
+{% assign nwsf_multi  = site.data.speakers | where_exp: "p", "p.sessions and p.sessions contains 'nwsf'" %}
+{% assign nw_list = nwsf_single | concat: nwsf_multi %}
 {% for sp in nw_list %}
 - **{{ sp.name }}**{% if sp.degrees %}, {{ sp.degrees }}{% endif %}{% if sp.affiliation %} — {{ sp.affiliation }}{% endif %}
-  {% if sp.talk_title %}
-    {% if sp.talk_title.nwsf %}*{{ sp.talk_title.nwsf }}*{% else %}*{{ sp.talk_title }}*{% endif %}
-  {% endif %}
-  {% if sp.abstract %}
-    {% if sp.abstract.nwsf %}<br>{{ sp.abstract.nwsf }}{% else %}<br>{{ sp.abstract }}{% endif %}
-  {% endif %}
+  {% assign t = sp.talk_title %}
+  {% assign a = sp.abstract %}
+  {% if t %}{% assign t_key = t['nwsf'] | default: t %}*{{ t_key }}*{% endif %}
+  {% if a %}<br>{{ a['nwsf'] | default: a }}{% endif %}
 {% endfor %}
 </details>
-
 
 ---
 
 ## Session 1, AI and ML
-{% assign chair = site.data.speakers
-   | where: "role", "chair"
-   | where_exp: "s", "(s.sessions and s.sessions contains 'ai-ml') or s.session == 'ai-ml'"
-   | first %}
+{% assign chair_single = chairs | where: "session", "ai-ml" | first %}
+{% assign chair_multi  = chairs | where_exp: "p", "p.sessions and p.sessions contains 'ai-ml'" | first %}
+{% assign chair = chair_single %}{% if chair == nil %}{% assign chair = chair_multi %}{% endif %}
 **Session Chair:** {% if chair %}{{ chair.name }}{% if chair.degrees %}, {{ chair.degrees }}{% endif %}{% if chair.affiliation %} — {{ chair.affiliation }}{% endif %}{% else %}TBA{% endif %}
 
 <details><summary>Speakers and talks</summary>
-{% for sp in site.data.speakers %}
-  {% if (sp.role == "speaker" or sp.role == "panelist") and ((sp.sessions and sp.sessions contains "ai-ml") or sp.session == "ai-ml") %}
+{% assign s1_single = site.data.speakers | where: "session", "ai-ml" | where_exp: "p", "p.role == 'speaker' or p.role == 'panelist'" %}
+{% assign s1_multi  = site.data.speakers | where_exp: "p", "(p.sessions and p.sessions contains 'ai-ml') and (p.role == 'speaker' or p.role == 'panelist')" %}
+{% assign s1 = s1_single | concat: s1_multi %}
+{% for sp in s1 %}
 - **{{ sp.name }}**{% if sp.degrees %}, {{ sp.degrees }}{% endif %}{% if sp.affiliation %} — {{ sp.affiliation }}{% endif %}
-  {% if sp.talk_title %}
-    {% if sp.talk_title["ai-ml"] %}*{{ sp.talk_title["ai-ml"] }}*{% else %}*{{ sp.talk_title }}*{% endif %}
-  {% endif %}
-  {% if sp.abstract %}
-    {% if sp.abstract["ai-ml"] %}<br>{{ sp.abstract["ai-ml"] }}{% else %}<br>{{ sp.abstract }}{% endif %}
-  {% endif %}
-  {% endif %}
+  {% assign t = sp.talk_title %}{% if t %}{% assign t_key = t['ai-ml'] | default: t %}*{{ t_key }}*{% endif %}
+  {% assign a = sp.abstract %}{% if a %}<br>{{ a['ai-ml'] | default: a }}{% endif %}
 {% endfor %}
 </details>
 
 ---
 
 ## Keynote
-{% assign keynote = site.data.speakers
-   | where: "role", "keynote"
-   | where_exp: "s", "(s.sessions and s.sessions contains 'keynote') or s.session == 'keynote'"
-   | first %}
+{% assign keynote_single = site.data.speakers | where: "role", "keynote" | where: "session", "keynote" | first %}
+{% assign keynote_multi  = site.data.speakers | where: "role", "keynote" | where_exp: "p", "p.sessions and p.sessions contains 'keynote'" | first %}
+{% assign keynote = keynote_single %}{% if keynote == nil %}{% assign keynote = keynote_multi %}{% endif %}
 **Speaker:** {% if keynote %}{{ keynote.name }}{% if keynote.degrees %}, {{ keynote.degrees }}{% endif %}{% if keynote.affiliation %} — {{ keynote.affiliation }}{% endif %}{% else %}TBA{% endif %}
 
 <details><summary>Abstract</summary>
-{% if keynote and keynote.abstract %}
-  {% if keynote.abstract.keynote %}{{ keynote.abstract.keynote }}{% else %}{{ keynote.abstract }}{% endif %}
-{% else %}
-  Abstract TBA
-{% endif %}
+{% if keynote and keynote.abstract %}{{ keynote.abstract['keynote'] | default: keynote.abstract }}{% else %}Abstract TBA{% endif %}
 </details>
 
 ---
 
 ## Session 2, Epigenetics
-{% assign chair = site.data.speakers
-   | where: "role", "chair"
-   | where_exp: "s", "(s.sessions and s.sessions contains 'epigenetics') or s.session == 'epigenetics'"
-   | first %}
+{% assign chair_single = chairs | where: "session", "epigenetics" | first %}
+{% assign chair_multi  = chairs | where_exp: "p", "p.sessions and p.sessions contains 'epigenetics'" | first %}
+{% assign chair = chair_single %}{% if chair == nil %}{% assign chair = chair_multi %}{% endif %}
 **Session Chair:** {% if chair %}{{ chair.name }}{% if chair.degrees %}, {{ chair.degrees }}{% endif %}{% if chair.affiliation %} — {{ chair.affiliation }}{% endif %}{% else %}TBA{% endif %}
 
 <details><summary>Speakers and talks</summary>
-{% for sp in site.data.speakers %}
-  {% if (sp.role == "speaker" or sp.role == "panelist") and ((sp.sessions and sp.sessions contains "epigenetics") or sp.session == "epigenetics") %}
+{% assign s2_single = site.data.speakers | where: "session", "epigenetics" | where_exp: "p", "p.role == 'speaker' or p.role == 'panelist'" %}
+{% assign s2_multi  = site.data.speakers | where_exp: "p", "(p.sessions and p.sessions contains 'epigenetics') and (p.role == 'speaker' or p.role == 'panelist')" %}
+{% assign s2 = s2_single | concat: s2_multi %}
+{% for sp in s2 %}
 - **{{ sp.name }}**{% if sp.degrees %}, {{ sp.degrees }}{% endif %}{% if sp.affiliation %} — {{ sp.affiliation }}{% endif %}
-  {% if sp.talk_title %}
-    {% if sp.talk_title.epigenetics %}*{{ sp.talk_title.epigenetics }}*{% else %}*{{ sp.talk_title }}*{% endif %}
-  {% endif %}
-  {% if sp.abstract %}
-    {% if sp.abstract.epigenetics %}<br>{{ sp.abstract.epigenetics }}{% else %}<br>{{ sp.abstract }}{% endif %}
-  {% endif %}
-  {% endif %}
+  {% assign t = sp.talk_title %}{% if t %}{% assign t_key = t['epigenetics'] | default: t %}*{{ t_key }}*{% endif %}
+  {% assign a = sp.abstract %}{% if a %}<br>{{ a['epigenetics'] | default: a }}{% endif %}
 {% endfor %}
 </details>
 
 ---
 
 ## Session 3, Drugging the Undruggable
-{% assign chair = site.data.speakers
-   | where: "role", "chair"
-   | where_exp: "s", "(s.sessions and s.sessions contains 'undruggable') or s.session == 'undruggable'"
-   | first %}
+{% assign chair_single = chairs | where: "session", "undruggable" | first %}
+{% assign chair_multi  = chairs | where_exp: "p", "p.sessions and p.sessions contains 'undruggable'" | first %}
+{% assign chair = chair_single %}{% if chair == nil %}{% assign chair = chair_multi %}{% endif %}
 **Session Chair:** {% if chair %}{{ chair.name }}{% if chair.degrees %}, {{ chair.degrees }}{% endif %}{% if chair.affiliation %} — {{ chair.affiliation }}{% endif %}{% else %}TBA{% endif %}
 
 <details><summary>Speakers and talks</summary>
-{% for sp in site.data.speakers %}
-  {% if (sp.role == "speaker" or sp.role == "panelist") and ((sp.sessions and sp.sessions contains "undruggable") or sp.session == "undruggable") %}
+{% assign s3_single = site.data.speakers | where: "session", "undruggable" | where_exp: "p", "p.role == 'speaker' or p.role == 'panelist'" %}
+{% assign s3_multi  = site.data.speakers | where_exp: "p", "(p.sessions and p.sessions contains 'undruggable') and (p.role == 'speaker' or p.role == 'panelist')" %}
+{% assign s3 = s3_single | concat: s3_multi %}
+{% for sp in s3 %}
 - **{{ sp.name }}**{% if sp.degrees %}, {{ sp.degrees }}{% endif %}{% if sp.affiliation %} — {{ sp.affiliation }}{% endif %}
-  {% if sp.talk_title %}
-    {% if sp.talk_title.undruggable %}*{{ sp.talk_title.undruggable }}*{% else %}*{{ sp.talk_title }}*{% endif %}
-  {% endif %}
-  {% if sp.abstract %}
-    {% if sp.abstract.undruggable %}<br>{{ sp.abstract.undruggable }}{% else %}<br>{{ sp.abstract }}{% endif %}
-  {% endif %}
-  {% endif %}
+  {% assign t = sp.talk_title %}{% if t %}{% assign t_key = t['undruggable'] | default: t %}*{{ t_key }}*{% endif %}
+  {% assign a = sp.abstract %}{% if a %}<br>{{ a['undruggable'] | default: a }}{% endif %}
 {% endfor %}
 </details>
 
