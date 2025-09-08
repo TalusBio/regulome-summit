@@ -2,7 +2,7 @@ ai-ml:
   blurb: Short talks on representation learning, model eval, and proteomics workflows.
 
 epigenetics:
-  blurb: Methods and findings across chromatin dynamics and regulome mapping.
+  blurb: The nucleus is a complex biomolecular environment where proteins, DNA, and RNA interact in ways that challenge conventional measurement. We compare our favorite—and least favorite—technologies for studying the regulome, where improvement is most needed, and which questions better tools could answer.
 
 undruggable:
   blurb: Modality mix for TFs and cofactors, screening tactics, and risk.
