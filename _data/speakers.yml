@@ -90,3 +90,13 @@ Tara earned her Ph.D. in Biochemistry from the California Institute of Technolog
   order: 8
   role: speaker            # chair | speaker | panelist | keynote
   sessions: ai-ml         # ai-ml | epigenetics | undruggable | keynote | nwsf
+
+- id: jo-mcneal
+  name: " Jo McNeal"
+  role: "Executive Director"
+  org: "Northwest Sarcoma Foundation"
+  img: "mcneal.jpg"
+  bio: "Jo McNeal has been the Executive Director for the Northwest Sarcoma Foundation for the past five years and has over 20 years of experience working in non-profit. She has worked with special events team at the University of Washington’s School of Medicine Advancement, community relations with Overlake Medical Center, mental health, and local blood cancer organizations, prior to joining the NWSF. Ms. McNeal has walked the path of a part-time caregiver for her mother while undergoing treatment for a rare cancer. She understands some of the struggles patients and their families face."
+  order: 9
+  role: speaker            # chair | speaker | panelist | keynote
+  sessions: nwsf         # ai-ml | epigenetics | undruggable | keynote | nwsf
