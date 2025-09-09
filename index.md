@@ -36,11 +36,10 @@ To pay for parking you need to download the PayByPhone app. You will be able to 
 
 It's about an 8 minute walk to Dempsey Hall. Once you enter Dempsey Hall, take the elevator or stairs to the third floor, where you will see the check-in table outside Anthony's Forum for the event! (Note: Paccar Hall is adjacent to Dempsey Hall and share floors however floor 2 of Paccar enters on floor 3 of Dempsey)
 
-Central Plaza Garage:
-https://maps.app.goo.gl/uwk8V1yxxUQvWJE69
+[Central Plaza Garage](https://maps.app.goo.gl/uwk8V1yxxUQvWJE69)
 
-Dempsey Hall:
-https://maps.app.goo.gl/NHtYuavaP6ydZUFh6
+[Dempsey Hall](https://maps.app.goo.gl/NHtYuavaP6ydZUFh6)
+
 
 
 ---
