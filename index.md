@@ -1,4 +1,4 @@
----
+<img width="386" height="458" alt="image" src="https://github.com/user-attachments/assets/9424e6b8-3e8a-46e0-b24e-348c9730f3dc" />---
 layout: home
 title: Regulome Summit
 ---
@@ -24,6 +24,24 @@ Clinical urgency is rising for chromatin-associated diseases, but technological 
 - Breakfast, lunch, and an afternoon happy hour is included.  
 - Registration is required. [RSVP here.](https://lu.ma/pnbkvx2j)
 - [Contact Us](mailto:summit@talus.bio)
+
+---
+
+## Getting to UW Dempsey Hall:
+
+Parking details: 
+Parking is best found in the visitor section of the Central Plaza Garage lot where you will use the PayByPhone app to register and pay for your license plate.
+
+To pay for parking you need to download the PayByPhone app. You will be able to input your section and pay once you leave the parking garage and have cell service.
+
+It's about an 8 minute walk to Dempsey Hall. Once you enter Dempsey Hall, take the elevator or stairs to the third floor, where you will see the check-in table outside Anthony's Forum for the event! (Note: Paccar Hall is adjacent to Dempsey Hall and share floors however floor 2 of Paccar enters on floor 3 of Dempsey)
+
+Central Plaza Garage:
+https://maps.app.goo.gl/uwk8V1yxxUQvWJE69
+
+Dempsey Hall:
+https://maps.app.goo.gl/NHtYuavaP6ydZUFh6
+
 
 ---
 
