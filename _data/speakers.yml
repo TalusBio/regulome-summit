@@ -102,7 +102,7 @@ Tara earned her Ph.D. in Biochemistry from the California Institute of Technolog
   sessions: nwsf         # ai-ml | epigenetics | undruggable | keynote | nwsf
 
 - id: greg-block
-  name: "Gregory Block"
+  name: "Gregory Block, PhD"
   role: "CEO/co-founder"
   org: "Histone Therapeutics"
   img: "block.jpg"
@@ -110,3 +110,14 @@ Tara earned her Ph.D. in Biochemistry from the California Institute of Technolog
   order: 10
   role: speaker            # chair | speaker | panelist | keynote
   sessions: epigenetics         # ai-ml | epigenetics | undruggable | keynote | nwsf
+
+- id: stephanie-schaub
+  name: "Stephanie K. Schaub, MD"
+  role: "Associate Professor"
+  org: "University of Washington and Fred Hutch Cancer Center"
+  img: "schaub.jpg"
+  bio: "Dr. Stephanie Schaub is an Associate Professor of Radiation Oncology at the University of Washington and Fred Hutch Cancer Center. She specializes in treating patients with sarcomas, complex spine tumors, and pediatric cancers. Her expertise includes advanced radiation modalities like proton therapy, neutron therapy, and stereotactic body radiation therapy (SBRT). In her research, Dr. Schaub focuses on discovering non-invasive biomarkers, such as those found through imaging or blood samples, to help predict how a patient will respond to cancer treatment. She is also interested in clinical trial development. She is a leading expert in the management of chordomas of the mobile spine and sacrum at Fred Hutch and has contributed to international guidelines on treating these tumors. Dr. Schaub also serves as a physician expert and champion for the Chordoma Foundation and the Northwest Sarcoma Foundation."
+  order: 11
+  role: speaker            # chair | speaker | panelist | keynote
+  sessions: nswf         # ai-ml | epigenetics | undruggable | keynote | nwsf
+
