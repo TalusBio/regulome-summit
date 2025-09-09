@@ -105,7 +105,7 @@ Tara earned her Ph.D. in Biochemistry from the California Institute of Technolog
   name: "Gregory Block, PhD"
   role: "CEO/co-founder"
   org: "Histone Therapeutics"
-  img: "block.jpg"
+  img: "block.jpeg"
   bio: "Dr. Block is CEO and co-founder of Histone Therapeutics, a Seattle-based genetic medicines company. Prior to Histone, he was SVP of Corporate Development at Notch Therapeutics, Director of Business Development at Astellas who had purchased his previous company, Universal Cells, where he was VP of Corporate Development.  Dr. Block is a chromatin biologist by training at University of Toronto, Tulane University, and the University of Washington."
   order: 10
   role: panelist            # chair | speaker | panelist | keynote
@@ -139,7 +139,7 @@ development."
   name: "Steven Henikoff, PhD"
   role: "Professor"
   org: "Fred Hutchinson Cancer Center and Howard Hughes Medical Institute"
-  img: "henikoff.ppg"
+  img: "henikoff.png"
   bio: "Steve Henikoff received a BS from the University of Chicago, PhD from Harvard University and performed post-doctoral work at the University of Washington. He is a professor of Basic Sciences at the Fred Hutch, an HHMI investigator and an affiliate professor of Genome Sciences at the University of Washington. His laboratory performs research on chromatin and nuclear dynamics, transcriptional regulation, centromeres and cancer, and develops experimental and computational tools for studying these processes."
   order: 13
   role: speaker            # chair | speaker | panelist | keynote
