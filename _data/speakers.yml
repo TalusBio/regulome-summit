@@ -5,8 +5,8 @@
   img: "federation.jpeg"
   bio: "Bio coming soon."
   order: 1
-  role: keynote            # chair | speaker | panelist | keynote
-  sessions: keynote         # ai-ml | epigenetics | undruggable | keynote | nwsf
+  role: chair            # chair | speaker | panelist | keynote
+  sessions:          # ai-ml | epigenetics | undruggable | keynote | nwsf
   talk_title: 
   abstract:
 
@@ -92,7 +92,7 @@ Tara earned her Ph.D. in Biochemistry from the California Institute of Technolog
   sessions: ai-ml         # ai-ml | epigenetics | undruggable | keynote | nwsf
 
 - id: jo-mcneal
-  name: " Jo McNeal"
+  name: "Jo McNeal"
   role: "Executive Director"
   org: "Northwest Sarcoma Foundation"
   img: "mcneal.jpg"
