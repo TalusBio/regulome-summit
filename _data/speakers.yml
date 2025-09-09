@@ -143,4 +143,4 @@ development."
   bio: "Steve Henikoff received a BS from the University of Chicago, PhD from Harvard University and performed post-doctoral work at the University of Washington. He is a professor of Basic Sciences at the Fred Hutch, an HHMI investigator and an affiliate professor of Genome Sciences at the University of Washington. His laboratory performs research on chromatin and nuclear dynamics, transcriptional regulation, centromeres and cancer, and develops experimental and computational tools for studying these processes."
   order: 13
   role: speaker            # chair | speaker | panelist | keynote
-  sessions: epigenetics         # ai-ml | epigenetics | undruggable | keynote | nwsf
+  sessions: keynote         # ai-ml | epigenetics | undruggable | keynote | nwsf
