@@ -53,7 +53,7 @@ Additional career stops include Vice President of Discovery Research at Takeda, 
 Gavin currently serves as a board advisor to Intelligent Ventures, an emerging venture capital firm that invests in US-based seed-stage companies, operating within the intersection of AI and healthcare, Zafrens, a company leveraging high-throughput cellular profiling at single-cell resolution, and Promakhos, a company working on restoring immune system function.
 Gavin has authored more than 100 scientific publications, presentations, book chapters, patents, and patent applications, reflecting his deep commitment to advancing drug discovery and development."
   order: 5
-  role: speaker            # chair | speaker | panelist | keynote
+  role: panelist            # chair | speaker | panelist | keynote
   sessions: undruggable         # ai-ml | epigenetics | undruggable | keynote | nwsf
 
 - id: jerry-shipps
@@ -63,7 +63,7 @@ Gavin has authored more than 100 scientific publications, presentations, book ch
   img: "shipps.jpg"
   bio: "Jerry is an Executive Director in the Discovery Network group at Pfizer, focusing on the search & assessment of emerging drug discovery technologies and other promising external opportunities.  Prior to Pfizer he directed academic and biotech collaborations at Shire and evaluated external assets.  He also coordinated the global Tuberculosis Drug Accelerator initiative with the Bill & Melinda Gates Foundation, advancing compounds from 17 pharma & research institutions.  Earlier in his career Jerry directed medicinal chemistry and screening groups at Merck, Schering-Plough, and the biotech NeoGenesis.  He earned a Ph.D. in Organic Chemistry from M.I.T. in the laboratory of Prof. Julius Rebek."
   order: 6
-  role: speaker            # chair | speaker | panelist | keynote
+  role: panelist            # chair | speaker | panelist | keynote
   sessions: undruggable         # ai-ml | epigenetics | undruggable | keynote | nwsf
 
 - id: tara-arvedson
@@ -78,7 +78,7 @@ Before joining Hexagon Bio, Tara held senior leadership roles at Amgen where she
 Tara earned her Ph.D. in Biochemistry from the California Institute of Technology and completed a Damon Runyon Cancer Research Fellowship at UC San Diego. She is an inventor on multiple patents, a widely published author, and a recognized thought leader in drug discovery and development.
 "
   order: 7
-  role: speaker            # chair | speaker | panelist | keynote
+  role: panelist            # chair | speaker | panelist | keynote
   sessions: undruggable         # ai-ml | epigenetics | undruggable | keynote | nwsf
   
 - id: ken-horenstein
@@ -88,7 +88,7 @@ Tara earned her Ph.D. in Biochemistry from the California Institute of Technolog
   img: "horenstein.JPG"
   bio: "Ken is the Founder and General Partner of Pack Ventures, a preferred venture partner of the University of Washington. At Pack, Ken and team have backed 10 platform focused life science companies (and counting), including multiple Institute for Protein Design spinouts at the preseed and seed level. Ken was previously a part of the M12 Team, Microsoft’s Venture Fund, and has been a VC for over a decade."
   order: 8
-  role: speaker            # chair | speaker | panelist | keynote
+  role: panelist            # chair | speaker | panelist | keynote
   sessions: ai-ml         # ai-ml | epigenetics | undruggable | keynote | nwsf
 
 - id: jo-mcneal
@@ -98,7 +98,7 @@ Tara earned her Ph.D. in Biochemistry from the California Institute of Technolog
   img: "mcneal.jpg"
   bio: "Jo McNeal has been the Executive Director for the Northwest Sarcoma Foundation for the past five years and has over 20 years of experience working in non-profit. She has worked with special events team at the University of Washington’s School of Medicine Advancement, community relations with Overlake Medical Center, mental health, and local blood cancer organizations, prior to joining the NWSF. Ms. McNeal has walked the path of a part-time caregiver for her mother while undergoing treatment for a rare cancer. She understands some of the struggles patients and their families face."
   order: 9
-  role: speaker            # chair | speaker | panelist | keynote
+  role: panelist            # chair | speaker | panelist | keynote
   sessions: nwsf         # ai-ml | epigenetics | undruggable | keynote | nwsf
 
 - id: greg-block
@@ -108,7 +108,7 @@ Tara earned her Ph.D. in Biochemistry from the California Institute of Technolog
   img: "block.jpg"
   bio: "Dr. Block is CEO and co-founder of Histone Therapeutics, a Seattle-based genetic medicines company. Prior to Histone, he was SVP of Corporate Development at Notch Therapeutics, Director of Business Development at Astellas who had purchased his previous company, Universal Cells, where he was VP of Corporate Development.  Dr. Block is a chromatin biologist by training at University of Toronto, Tulane University, and the University of Washington."
   order: 10
-  role: speaker            # chair | speaker | panelist | keynote
+  role: panelist            # chair | speaker | panelist | keynote
   sessions: epigenetics         # ai-ml | epigenetics | undruggable | keynote | nwsf
 
 - id: stephanie-schaub
@@ -118,6 +118,29 @@ Tara earned her Ph.D. in Biochemistry from the California Institute of Technolog
   img: "schaub.jpg"
   bio: "Dr. Stephanie Schaub is an Associate Professor of Radiation Oncology at the University of Washington and Fred Hutch Cancer Center. She specializes in treating patients with sarcomas, complex spine tumors, and pediatric cancers. Her expertise includes advanced radiation modalities like proton therapy, neutron therapy, and stereotactic body radiation therapy (SBRT). In her research, Dr. Schaub focuses on discovering non-invasive biomarkers, such as those found through imaging or blood samples, to help predict how a patient will respond to cancer treatment. She is also interested in clinical trial development. She is a leading expert in the management of chordomas of the mobile spine and sacrum at Fred Hutch and has contributed to international guidelines on treating these tumors. Dr. Schaub also serves as a physician expert and champion for the Chordoma Foundation and the Northwest Sarcoma Foundation."
   order: 11
-  role: speaker            # chair | speaker | panelist | keynote
+  role: panelist            # chair | speaker | panelist | keynote
   sessions: nswf         # ai-ml | epigenetics | undruggable | keynote | nwsf
 
+- id: thelma-escobar
+  name: "Thelma M. Escobar, PhD"
+  role: "Associate Professor"
+  org: "University of Washington"
+  img: "escobar.jpg"
+  bio: "A long-term goal of the Escobar Lab is to understand the mechanisms and functional consequences
+of chromatin dynamics in maintaining cellular identity. We are are merging chromatin dynamics, stem
+cells, and immune biology to study epigenetic inheritance. One interest is to examine how histone
+chaperones facilitate the inheritance of chromatin domains across DNA replication and in immune cell
+development."
+  order: 12
+  role: panelist            # chair | speaker | panelist | keynote
+  sessions: epigenetics         # ai-ml | epigenetics | undruggable | keynote | nwsf
+
+- id: steven-henikoff
+  name: "Steven Henikoff, PhD"
+  role: "Professor"
+  org: "Fred Hutchinson Cancer Center and Howard Hughes Medical Institute"
+  img: "henikoff.ppg"
+  bio: "Steve Henikoff received a BS from the University of Chicago, PhD from Harvard University and performed post-doctoral work at the University of Washington. He is a professor of Basic Sciences at the Fred Hutch, an HHMI investigator and an affiliate professor of Genome Sciences at the University of Washington. His laboratory performs research on chromatin and nuclear dynamics, transcriptional regulation, centromeres and cancer, and develops experimental and computational tools for studying these processes."
+  order: 13
+  role: speaker            # chair | speaker | panelist | keynote
+  sessions: epigenetics         # ai-ml | epigenetics | undruggable | keynote | nwsf
