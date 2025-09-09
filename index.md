@@ -1,4 +1,3 @@
-<img width="386" height="458" alt="image" src="https://github.com/user-attachments/assets/9424e6b8-3e8a-46e0-b24e-348c9730f3dc" />---
 layout: home
 title: Regulome Summit
 ---
