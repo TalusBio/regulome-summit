@@ -1,5 +1,5 @@
 ai-ml:
-  blurb: Short talks on representation learning, model eval, and proteomics workflows.
+  blurb:  Models matter only if they predict and explain biology well enough to change decisions. We discuss the challenges and opportunities in building and testing models for actionable biology insights, then connect those models to industry applications such as screening design and target triage.
 
 epigenetics:
   blurb: The nucleus is a complex biomolecular environment where proteins, DNA, and RNA interact in ways that challenge conventional measurement. We compare our favorite—and least favorite—technologies for studying the regulome, where improvement is most needed, and which questions better tools could answer.
