@@ -100,3 +100,13 @@ Tara earned her Ph.D. in Biochemistry from the California Institute of Technolog
   order: 9
   role: speaker            # chair | speaker | panelist | keynote
   sessions: nwsf         # ai-ml | epigenetics | undruggable | keynote | nwsf
+
+- id: greg-block
+  name: "Gregory Block"
+  role: "CEO/co-founder"
+  org: "Histone Therapeutics"
+  img: "block.jpg"
+  bio: "Dr. Block is CEO and co-founder of Histone Therapeutics, a Seattle-based genetic medicines company. Prior to Histone, he was SVP of Corporate Development at Notch Therapeutics, Director of Business Development at Astellas who had purchased his previous company, Universal Cells, where he was VP of Corporate Development.  Dr. Block is a chromatin biologist by training at University of Toronto, Tulane University, and the University of Washington."
+  order: 10
+  role: speaker            # chair | speaker | panelist | keynote
+  sessions: epigenetics         # ai-ml | epigenetics | undruggable | keynote | nwsf
