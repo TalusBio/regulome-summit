@@ -144,3 +144,13 @@ development."
   order: 13
   role: speaker            # chair | speaker | panelist | keynote
   sessions: keynote         # ai-ml | epigenetics | undruggable | keynote | nwsf
+
+- id: avery-sonnenberg
+  name: "Avery Sonnenberg, PhD"
+  role: "Principal"
+  org: "Two Bear Capital"
+  img: "sonnenberg.png"
+  bio: "Avery Sonnenberg, PhD is a Principal at Two Bear Capital based at the firm’s headquarters in Whitefish, Montana. Avery focuses on technological advancements that can lead to transformative outcomes in therapeutics, diagnostics, life science tools and medical devices, particularly in oncology and neurodegeneration. Previously, he was part of the Life Science Innovation group at Becton Dickinson where he helped drive innovation and strategic growth in alignment with emerging market and technology trends. He maintains a relentless curiosity about the potential for impactful technology as well as a deep commitment to fostering meaningful relationships with portfolio company founders. Avery holds a PhD in Bioengineering from University of California, San Diego and an MS in Electrical Engineering from Rochester Institute of Technology."
+  order: 14
+  role: panelist            # chair | speaker | panelist | keynote
+  sessions: ai-ml         # ai-ml | epigenetics | undruggable | keynote | nwsf
