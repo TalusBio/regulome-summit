@@ -175,3 +175,14 @@ development."
   role: [panelist, speaker]	# chair | speaker | panelist | keynote
   sessions: ai-ml 	# ai-ml | epigenetics | undruggable | keynote | nwsf
 
+- id: sud-pinglay
+  name: "Sudarshan Pinglay, PhD"
+  role: "Build Lead"
+  org: "University of Washington, Department of Genome Sciences, the Brotman Baty Institute for Precision Medicine and Seattle Hub for Synthetic Biology"
+  img: "pinglay.jpg"
+  bio: "Sudarshan Pinglay leads a research lab at the University of Washington, Department of Genome Sciences, the Brotman Baty Institute for Precision Medicine and Seattle Hub for Synthetic Biology. He received his PhD for research conducted in the labs of Jef Boeke and Liam Holt at NYU. The Pinglay Lab focuses on developing technologies at the intersection of mammalian genome engineering, synthetic genomics, single-cell sequencing and de novo design. With these tools, we aim to construct improved disease models, elucidate the mechanisms of gene regulation, probe the limits of genome structure and encode novel functionalities into mammalian cells for applications in biologics production, cell therapy and biological recording. He is from Bangalore, India and completed undergraduate degrees in molecular biology and philosophy at Johns Hopkins University. "
+  order: 17
+  role: panelist	# chair | speaker | panelist | keynote
+  sessions: epigenetics 	# ai-ml | epigenetics | undruggable | keynote | nwsf
+
+
