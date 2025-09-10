@@ -154,3 +154,24 @@ development."
   order: 14
   role: panelist            # chair | speaker | panelist | keynote
   sessions: ai-ml         # ai-ml | epigenetics | undruggable | keynote | nwsf
+
+- id: ben-blue
+  name: "Ben Blue, PhD"
+  role: "CEO/cofounder"
+  org: "Ora Biomedical"
+  img: "blue.jpg"
+  bio: "Ben Blue is CEO and Co-Founder of Ora Biomedical, a Seattle biotech company using AI and robotics to accelerate drug discovery for aging and resilience. A Ph.D. biologist with expertise in aging, he has led Ora in developing molecules that protect human cells from UV radiation and other aging-related damage—work supported by the NIH, U.S. Air Force and U.S. Space Force. Ora’s proprietary WormBot platform enables rapid whole-organism drug screening, uncovering therapies for skin aging, cancer prevention, and immune resilience, while also powering preclinical discovery for biotech partners."
+  order: 15
+  role: panelist            # chair | speaker | panelist | keynote
+  sessions: epigenetics         # ai-ml | epigenetics | undruggable | keynote | nwsf
+
+- id: jeff-leek
+  name: "Jeff Leek, PhD"
+  role: "CEO/founder"
+  org: "Synthesize Bio"
+  img: "leek.jpg"
+  bio: " Jeff Leek is co-founder and c-CEO of Synthesize Bio. Synthesize Bio radically accelerates biomedical discovery and clinical research with novel generative AI models that predict the results of future or even impossible experiments. Jeff is also Chief Data Officer, Vice President, and J Orin Edson Foundation Chair of Biostatistics at the Fred Hutchinson Cancer Center. He has lead teams that created  AI and data science programs that have enrolled more than 10 million people around the world, created open source software used by tens of thousands of labs, established the Cancer AI Alliance spanning more than 1 million patients, and built institution scale infrastructure for the Fred Hutch. He has been awarded the two top prizes in the field of statistics - the Mortimer Spiegelman Award and the Committees of Presidents of Statistical Societies President’s Award. He was also named to the 2025 Time 100 Most Influential people in AI. You can find out more about Jeff’s work at https://jtleek.com/.   "
+  order: 16
+  role: [panelist, speaker]	# chair | speaker | panelist | keynote
+  sessions: ai-ml 	# ai-ml | epigenetics | undruggable | keynote | nwsf
+
