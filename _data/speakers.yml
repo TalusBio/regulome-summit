@@ -177,7 +177,7 @@ development."
 
 - id: sud-pinglay
   name: "Sudarshan Pinglay, PhD"
-  role: "Build Lead"
+  role: "Faculty"
   org: "University of Washington, Department of Genome Sciences, the Brotman Baty Institute for Precision Medicine and Seattle Hub for Synthetic Biology"
   img: "pinglay.jpg"
   bio: "Sudarshan Pinglay leads a research lab at the University of Washington, Department of Genome Sciences, the Brotman Baty Institute for Precision Medicine and Seattle Hub for Synthetic Biology. He received his PhD for research conducted in the labs of Jef Boeke and Liam Holt at NYU. The Pinglay Lab focuses on developing technologies at the intersection of mammalian genome engineering, synthetic genomics, single-cell sequencing and de novo design. With these tools, we aim to construct improved disease models, elucidate the mechanisms of gene regulation, probe the limits of genome structure and encode novel functionalities into mammalian cells for applications in biologics production, cell therapy and biological recording. He is from Bangalore, India and completed undergraduate degrees in molecular biology and philosophy at Johns Hopkins University. "
@@ -185,4 +185,15 @@ development."
   role: panelist	# chair | speaker | panelist | keynote
   sessions: epigenetics 	# ai-ml | epigenetics | undruggable | keynote | nwsf
 
+- id: devin-schweppe
+  name: "Devin Schweppe, PhD"
+  role: "Assistant Professor"
+  org: "University of Washington, Department of Genome Sciences"
+  img: "schweppe.jpg"
+  bio: "Devin began his research career working for Dr. Charles Lovett at Williams College. He then pursued doctoral work with Dr. Scott Gerber at Dartmouth Medical School, followed by postdoctoral work with Dr. James Bruce (UW) and Dr. Steven Gygi (Harvard Medical School).
+
+Starting in 2020, Dr. Schweppe is currently an Assistant Professor at the University of Washington in the Department of Genome Sciences. Dr. Schweppe is a Pew Biomedical Scholar, an Andy Hill CARE Foundation Distinguished Researcher, and a Cancer Consortium New Investigator. Dr. Schweppe’s research interests focus on the the interplay of chemical, cell, and systems biology. Through the implementation of biologically-aware mass spectrometric technologies, Dr. Schweppe's group quantifies proteins as a readout for diverse cell states with broad interests spanning protein-ligand interactions, small-molecule binding events, pre-clinical proteomics, and profiling primary tissue samples. Complimenting the studies of biological systems, Dr. Schweppe's group develops computational tools for proteomics and applications to disseminate datasets to the research community. Tools include those for real-time instrument control (Nova, Helios, Orbiter) and large-scale databases (CysDB, XLinkDB, BioPlex, Oximouse, etc.)."
+  order: 18
+  role: panelist	# chair | speaker | panelist | keynote
+  sessions: undruggables	# ai-ml | epigenetics | undruggable | keynote | nwsf
 
